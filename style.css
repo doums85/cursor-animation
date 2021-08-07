@@ -33,10 +33,15 @@ body {
 
 
 #link {
+    width: 100%;
     position: absolute;
     bottom: 10px;
-    right: 0;
-    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link a {
     text-align: center;
     color: #fff;
     text-decoration: none;
